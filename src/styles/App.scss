@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  font-family: "Lato", "Roboto";
+}
+#root {
+  height: 100%;
+}
+.h-90 {
+  height: 90%;
+}
+
+.h-100-50px {
+  height: calc(100% - 50px);
+}
+
+.home-button {
+  font-size: 36px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.modal-backdrop {
+  background: transparent;
+}
+
+.modal-body {
+  input {
+    width: 100%;
+  }
+}
+
+fieldset.scheduler-border {
+  border: 3px groove #eee !important;
+  padding: 0 0.5em 0.5em 0.5em !important;
+  -webkit-box-shadow: 0px 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px 0px #000;
+  .textarea {
+    position: absolute;
+    top: 32px;
+    left: 0.75em;
+    right: 0.75em;
+    bottom: 0.75em;
+    textarea {
+      resize: none;
+    }
+  }
+  .textarea-1 {
+    position: absolute;
+    top: 32px;
+    left: 1.75em;
+    right: 1.75em;
+    bottom: 0.75em;
+    textarea {
+      resize: none;
+    }
+  }
+}
+legend.scheduler-border {
+  font-size: 1em;
+  font-weight: 600;
+  background-color: white;
+}
+
+@import "./login.scss";
+@import "./homepage.scss";
+@import "./notes.scss";
+@import "./addTranche.scss";
+@import "./requestIsin.scss";
+@import "./termSheet.scss";
+@import "./calandar.scss";
